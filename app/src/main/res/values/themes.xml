@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AveMuzik" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ave_light_background</item>
+    </style>
+
+    <style name="Theme.AveMuzik.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ave_dark_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.AveMuzik</item>
+    </style>
+
+</resources>

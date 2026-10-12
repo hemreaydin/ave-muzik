@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ave_accent">#FFB4A7FF</color>
+    <color name="ave_dark_background">#FF0D0E11</color>
+    <color name="ave_light_background">#FFF7F7FA</color>
+    <color name="ic_launcher_background">#FF121318</color>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ave-Müzik</string>
+    <string name="app_title_prefix">Ave</string>
+    <string name="app_title_suffix">-Müzik</string>
+    <string name="app_motto">Telefonumdaki müzik. Reklamsız. İnternetsiz. Hızlı.</string>
+
+    <!-- Bilinmeyen metadata -->
+    <string name="unknown_artist">Bilinmeyen Sanatçı</string>
+    <string name="unknown_album">Bilinmeyen Albüm</string>
+    <string name="unknown_title">Adsız Parça</string>
+    <string name="various_artists">Çeşitli Sanatçılar</string>
+    <string name="internal_storage">Dahili depolama</string>
+
+    <!-- İzin -->
+    <string name="permission_title">Müziklerine erişim izni</string>
+    <string name="permission_body">Ave-Müzik, telefonundaki müzik dosyalarını listeleyip çalabilmek için ses dosyalarına erişim izni ister.\n\nHiçbir veri cihazından dışarı çıkmaz; uygulamanın internet izni bile yoktur.</string>
+    <string name="permission_grant">İzin ver</string>
+    <string name="permission_open_settings">Ayarları aç</string>
+    <string name="permission_denied_hint">İzni Ayarlar → İzinler → Müzik ve ses bölümünden verebilirsin.</string>
+
+    <!-- Sekmeler -->
+    <string name="tab_songs">Şarkılar</string>
+    <string name="tab_albums">Albümler</string>
+    <string name="tab_artists">Sanatçılar</string>
+    <string name="tab_playlists">Listeler</string>
+    <string name="tab_folders">Klasörler</string>
+
+    <!-- Genel -->
+    <string name="search">Ara</string>
+    <string name="settings">Ayarlar</string>
+    <string name="back">Geri</string>
+    <string name="more_options">Diğer seçenekler</string>
+    <string name="play">Çal</string>
+    <string name="pause">Duraklat</string>
+    <string name="next">Sonraki</string>
+    <string name="previous">Önceki</string>
+    <string name="shuffle_play">Karışık çal</string>
+    <string name="shuffle">Karışık</string>
+    <string name="refresh">Yenile</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="cancel">Vazgeç</string>
+    <string name="save">Kaydet</string>
+    <string name="create">Oluştur</string>
+    <string name="delete">Sil</string>
+    <string name="rename">Yeniden adlandır</string>
+    <string name="clear">Temizle</string>
+
+    <!-- Sayılar -->
+    <plurals name="song_count">
+        <item quantity="one">%1$d şarkı</item>
+        <item quantity="other">%1$d şarkı</item>
+    </plurals>
+    <plurals name="album_count">
+        <item quantity="one">%1$d albüm</item>
+        <item quantity="other">%1$d albüm</item>
+    </plurals>
+    <string name="meta_separator">%1$s · %2$s</string>
+    <string name="duration_minutes">%1$d dk</string>
+    <string name="duration_hours_minutes">%1$d sa %2$d dk</string>
+
+    <!-- Durumlar -->
+    <string name="library_loading">Müzikler taranıyor…</string>
+    <string name="library_empty_title">Müzik bulunamadı</string>
+    <string name="library_empty_body">Telefonunda ses dosyası bulunamadı. Müzik ekledikten sonra yenileyebilirsin.</string>
+    <string name="library_error_title">Kütüphane okunamadı</string>
+    <string name="library_error_permission">Müzik dosyalarına erişim izni yok.</string>
+    <string name="library_error_generic">Müzik kütüphanesi taranırken bir sorun oluştu.</string>
+    <string name="albums_empty">Henüz albüm yok.</string>
+    <string name="artists_empty">Henüz sanatçı yok.</string>
+    <string name="folders_empty">Müzik içeren klasör yok.</string>
+
+    <!-- Arama -->
+    <string name="search_hint">Şarkı, sanatçı veya albüm ara</string>
+    <string name="search_start">Şarkı adı, sanatçı veya albüm yazarak ara.</string>
+    <string name="search_no_results">“%1$s” için sonuç bulunamadı.</string>
+
+    <!-- Listeler -->
+    <string name="favorites">Favoriler</string>
+    <string name="new_playlist">Yeni liste</string>
+    <string name="create_playlist">Yeni liste oluştur</string>
+    <string name="playlist_name">Liste adı</string>
+    <string name="rename_playlist">Listeyi yeniden adlandır</string>
+    <string name="delete_playlist">Listeyi sil</string>
+    <string name="delete_playlist_confirm">“%1$s” listesi silinsin mi? Şarkılar telefonundan silinmez.</string>
+    <string name="playlists_empty">Henüz çalma listen yok. Kendi listeni oluşturmak için “Yeni liste”ye dokun.</string>
+    <string name="playlist_empty">Bu liste boş. Bir şarkının menüsünden “Listeye ekle”yi kullanabilirsin.</string>
+    <string name="favorites_empty">Henüz favorin yok. Şarkı çalarken kalbe dokunarak ekleyebilirsin.</string>
+    <string name="collection_not_found">Bu içerik artık mevcut değil.</string>
+    <string name="add_to_playlist">Listeye ekle</string>
+    <string name="kind_album">Albüm</string>
+    <string name="kind_artist">Sanatçı</string>
+    <string name="kind_folder">Klasör</string>
+    <string name="kind_playlist">Çalma listesi</string>
+
+    <!-- Şarkı menüsü -->
+    <string name="action_play_next">Sıradaki olarak çal</string>
+    <string name="action_add_to_queue">Çalma sırasına ekle</string>
+    <string name="action_add_favorite">Favorilere ekle</string>
+    <string name="action_remove_favorite">Favorilerden çıkar</string>
+    <string name="action_remove_from_playlist">Listeden çıkar</string>
+    <string name="action_go_to_album">Albüme git</string>
+    <string name="action_go_to_artist">Sanatçıya git</string>
+    <string name="msg_added_to_playlist">“%1$s” listesine eklendi</string>
+    <string name="msg_added_favorite">Favorilere eklendi</string>
+    <string name="msg_removed_favorite">Favorilerden çıkarıldı</string>
+    <string name="msg_play_next">Sıradaki olarak eklendi</string>
+    <string name="msg_added_to_queue">Çalma sırasına eklendi</string>
+    <string name="msg_removed_from_playlist">Listeden çıkarıldı</string>
+    <string name="msg_playlist_created">“%1$s” oluşturuldu</string>
+    <string name="msg_library_refreshing">Kütüphane yeniden taranıyor…</string>
+
+    <!-- Çalma ekranı -->
+    <string name="now_playing">Şimdi Çalıyor</string>
+    <string name="close">Kapat</string>
+    <string name="queue">Çalma sırası</string>
+    <string name="queue_up_next">Sıradakiler</string>
+    <string name="queue_empty">Sırada başka şarkı yok.</string>
+    <string name="remove_from_queue">Sıradan çıkar</string>
+    <string name="shuffle_on">Karışık çalma açık</string>
+    <string name="shuffle_off">Karışık çalma kapalı</string>
+    <string name="repeat_off">Tekrar kapalı</string>
+    <string name="repeat_all">Tümünü tekrarla</string>
+    <string name="repeat_one">Bu şarkıyı tekrarla</string>
+    <string name="favorite_add">Favorilere ekle</string>
+    <string name="favorite_remove">Favorilerden çıkar</string>
+
+    <!-- Oynatma hataları -->
+    <string name="error_file_not_found">Şarkı dosyası bulunamadı (silinmiş olabilir). Sonrakine geçildi.</string>
+    <string name="error_unsupported">Bu ses formatı cihazında desteklenmiyor. Sonrakine geçildi.</string>
+    <string name="error_generic">Şarkı çalınamadı.</string>
+
+    <!-- Bildirim -->
+    <string name="notification_channel_name">Müzik çalma</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_appearance">Görünüm</string>
+    <string name="theme_system">Sistem varsayılanı</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_light">Açık</string>
+    <string name="settings_library">Kütüphane</string>
+    <string name="settings_rescan">Kütüphaneyi yeniden tara</string>
+    <plurals name="settings_rescan_summary">
+        <item quantity="one">%1$d şarkı bulundu</item>
+        <item quantity="other">%1$d şarkı bulundu</item>
+    </plurals>
+    <string name="settings_about">Hakkında</string>
+    <string name="settings_version">Sürüm %1$s</string>
+    <string name="settings_privacy">Gizlilik</string>
+    <string name="settings_privacy_summary">Ave-Müzik\'in internet izni yoktur. Reklam, hesap ve takip yok; tüm veriler cihazında kalır.</string>
+</resources>
